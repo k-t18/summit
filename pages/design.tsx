@@ -1,7 +1,7 @@
-import React from 'react';
+import ThemeDesignerMaster from '../components/ThemeDesigner/ThemeDesignerMaster';
 
 const Design = () => {
-  return <div>Design</div>;
+  return <ThemeDesignerMaster />;
 };
 
 export default Design;
