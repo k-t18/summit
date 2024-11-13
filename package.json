@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "summit": "sh -c './check-if-theme-exists.sh' && npm run dev",
-    "dev": "next dev",
+    "dev": "sh -c './check-if-theme-exists.sh' && next dev",
     "build": "cross-env NODE_ENV=production next build",
     "start": "next start",
     "test": "jest",
